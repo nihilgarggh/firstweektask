@@ -1,0 +1,619 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FBF7EA;
+}
+
+.top-offer{
+    width: 100%;
+}
+.top-offer .bg-image{
+    background-image: url(../Images/header_strip.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+.offer-text {
+    width: 100%;
+    text-align: center;
+    color: #FAF4DD;
+    font-size: 16px;
+    padding: 1vw 0vw;
+
+}
+p{
+    font-family: "Dosis";
+}
+h5{
+    font-family: "dosis";
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    padding: 2% 0px;
+}
+
+.search {
+    position: relative;
+    width: 21vw;
+}
+
+.search input {
+    background-color: #F8F0D6;
+    color: #000;
+    border: none;
+    width: 90%;
+    height: 2.8vw;
+    padding: 0px 10%;
+    border-radius: 20px;
+    outline: 0;
+}
+
+::placeholder {
+    font-family: dosis;
+    color: #E1D7B1;
+    opacity: 1;
+    font-size: 1vw;
+}
+
+.search button {
+    position: absolute;
+    right: -1.2vw;
+    border: 0;
+    top: 0.6vw;
+    width: 1.5vw;
+    background-image: url(../Images/search-interface-symbol.png);
+    background-repeat: no-repeat;
+    background-color: #F8F0D6;
+    width: 32px;
+    height: 34px;
+    cursor: pointer;
+}
+.top-search {
+    display: none;
+}
+.logo img {
+    width: 100%;
+}
+.navbar .login-bag-fav{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+.login-bag-fav img {
+    height: 19px;
+}
+
+.login-bag-fav a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #242424;
+    font-family: 'Dosis';
+}
+
+.login-bag-fav span {
+    font-size: 15px;
+}
+
+
+.category-list{
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.category-list a{
+    text-decoration: none;
+    font-family: "Dosis";
+    word-spacing: 1px;
+    font-size: medium;
+    color: #242424;
+    margin: 25px;
+}
+
+.banner {
+    margin-bottom: 4%;
+    margin-top: 20px;
+}
+.item{
+    width: 100%;
+}
+
+.banner .owl-nav .sm-prev,
+.banner .owl-nav .sm-next {
+    position: absolute !important;
+    border: none !important;
+    background: transparent !important;
+    cursor: pointer;
+    top: 46% !important;
+}
+.banner .owl-nav .sm-prev img,
+.banner .owl-nav .sm-next img{
+    width: 80%;
+} 
+.owl-nav .sm-prev {
+    z-index: 2 !important;
+    left: 45px !important;
+    transform: rotateY(180deg) !important;
+}
+
+.owl-nav .sm-next {
+    z-index: 2 !important;
+    right: 45px !important;
+}
+
+.special-deals{
+    background-image: url(../Images/Layer\ 2\ copy\ 3.jpg);
+    height: 245px;
+}
+.special-deals h2{
+    font-family: "Dream Orphans";
+    word-spacing: 2.1px;
+font-size: 35px;
+padding-top: 55px;
+text-align: center;
+}
+
+.deals-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.5vw;
+    flex-wrap: wrap;
+    row-gap: 1.5vw;
+    margin-top: 30px;
+}
+
+.pick-your-mood h2{
+    padding-top: 93px;
+    font-size: 35px;
+    font-family: "Dosis";
+    word-spacing: 3px;
+    text-align: center;
+}
+
+.pick-your-mood p{
+    height: 45px;
+    width: 728px;
+    color: #545454;
+    font-family: "Dosis";
+    text-align: center;
+
+}
+
+.mood-images{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+    column-gap: 1rem;
+    text-align: center;
+    font-size: 22px;
+}
+
+.new-arrivals{
+    background-color: #FAF4DD;
+    padding-bottom: 60px;
+}
+.new-arrivals h2{
+    text-align: center;
+    font-family: "dosis";
+    font-size: 35px;
+    margin-top: 100px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+.inner p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.center .owl-item.center .item p {
+    margin-top: 0px;
+}
+
+.inner {
+    transition: 0.3s;
+    transform: scale(0.8);
+}
+
+.center .owl-item.center .inner {
+    transform: scale(1) !important;
+}
+
+.new-arrivals button .am-prev,
+.new-arrivals button .am-next {
+    position: absolute !important;
+    border: none !important;
+    background: transparent !important;
+    cursor: pointer;
+    top: 40% !important;
+    width: 5vw;
+}
+.new-arrivals button .am-prev img,
+.new-arrivals button .am-next img{
+    width: 4vw;
+}
+
+button .am-prev {
+    z-index: 2 !important;
+    left: 40px !important;
+    transform: rotateY(180deg) !important;
+}
+
+button.am-next {
+    z-index: 2 !important;
+    right: 40px !important;
+}
+
+
+.curvy-styles{
+    background-image: url(../Images/background_img_curvy.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    background-size: 25%;
+    float: left;
+    background-color: #FBF7EA;
+    margin-bottom: 100px;
+}
+.first-div{
+    width: 48%;
+    margin-bottom: 158px;
+    float: left;
+}
+.first-div h2{
+    margin-left: 142px;
+    font-family: "Dosis";
+    font-size: 35px;
+    margin-top: 158px;
+    margin-bottom: 10px;
+}
+
+.first-div p{
+    margin-left: 142px;
+    font-family: "Dosis";
+    font-size: 16px;
+    padding-right: 140px;
+    color: #545454;
+}
+
+.button-image{
+    display: flex;
+    margin-top: 20px;
+}
+.button-image button{
+    width: 264px;
+height: 57px;
+margin-left: 140px;
+outline: 0;
+background-color: #C9211E;
+border: 0;
+color: #FFFFFF;
+font-family: "Dosis";
+font-size: 16px;
+}
+.button-image img{
+    width: 275px;
+height: 375px;
+margin-left: 50px;
+}
+
+.second-div{
+    width: 48%;
+    float: left;
+}
+.second-div img{
+    width: 500px;
+height: 650px;
+margin-left: 100px;
+    margin-top: 80px;;
+}
+
+.styleforoccasion{
+    background-color: #FAF4DD;
+    /* padding-top: 100px;
+    margin-top: 100px; */
+    font-family: "Dosis";
+    text-align: center;
+    padding: 100px;
+}
+
+.styleforoccasion h2{
+    font-size: 35px;
+    word-spacing: 3px;
+}
+.styleforoccasion h5{
+    font-size: 16px;
+    margin: 0;
+    padding: 10px;
+}
+.styleforoccasion img{
+    width: 338px;
+    height: 484px;
+}
+.styleforoccasion div{
+    width: 33.33%;
+    font-size: 22px;
+    float: left;
+}
+
+.styleforoccasion section{
+    background-color: #FAF4DD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+    column-gap: 1rem;
+}
+
+.bestseller {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+.bestseller h2{
+    padding-bottom: 5%;
+    font-family: "dosis";
+}
+.bestseller .bestseller-head ul {
+    display: flex;
+    column-gap: 10px;
+}
+.bestseller .bestseller-head ul li {
+    list-style: none;
+}
+.bestseller .bestseller-head ul li a{
+    text-decoration: none;
+    color: #545454;
+    font-family: "dosis";
+}
+.item-best P{
+    font-size: 11px;
+    padding-top: 9px;
+}
+.item-best .price p{
+    font-size: 16px;
+    padding: 0;
+}
+.item-best .price{
+    padding: 9px 0px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.discount{
+    color: #d4534d;
+}
+.bestseller .bestseller-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bestseller button .bm-prev img,
+.bestseller button .bm-next img{
+    width: 70%;
+}
+.bestseller button .bm-prev,
+.bestseller button .bm-next {
+    position: absolute !important;
+    border: none !important;
+    background: transparent !important;
+    cursor: pointer;
+    top: 27% !important;
+}
+
+button .bm-prev {
+    z-index: 2 !important;
+    left: -6.5% !important;
+    transform: rotateY(180deg) !important;
+}
+
+button .bm-next {
+    z-index: 2 !important;
+    right: -6.5% !important;
+}
+
+.bestseller .owl-bestseller {
+    margin-top: 13px;
+    width: 85%;
+}
+
+.item-best {
+    margin: auto 12px;
+}
+
+
+.hues-of-season{
+    width: 100%;
+    font-family: "Dosis";
+    text-align: center;
+    background-image: url(../Images/Layer\ 2\ copy\ 3.jpg);
+    height: 900px;
+}
+.hues-of-season h2{
+    font-size: 35px;
+    padding-top: 70px;
+    margin: 0;
+}
+.hues-of-season h4{
+    font-size: 16px;
+    color: #545454;
+margin-top: 0;
+padding: 0px 20px 20px 20px;
+}
+.hues-of-season img{
+    margin-right: 33px;
+    margin-bottom: 25px;
+}
+
+.insta-pics{
+    width: 250px;
+    height: 250px;
+    margin-left: 2%;
+
+}
+.insta-pics-div{
+    align-items: center;
+    /* margin-left: 2%; */
+    margin-bottom: 100px;
+}
+
+.get-a-first-look{
+    font-family: 'Dosis';
+    text-align: center;
+}
+.get-a-first-look h2{
+    font-size: 35px;
+    padding-top: 96px;
+    margin-bottom: 0;
+    word-spacing: 1px;
+}
+.get-a-first-look h5{
+    font-size: 16px;
+    margin-top: 0;
+    word-spacing: 1px;
+    padding: 0 10px 10px 10px;
+}
+
+.get-a-first-look a{
+    text-decoration: none;
+    color: #242424;
+}
+
+.return-shipping{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 8% 3%;
+}
+
+.ship{
+    background-color: #FAF4DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.ship img{
+    width: 45px;
+    padding: 28%;
+}
+
+.return h3{
+    padding: 10px;
+    font-family: "dosis";
+    font-size: 18px;
+}
+
+.footer{
+    background-image: url(../images/Group\ 38.jpg);
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    font-family: "Dosis";
+}
+
+.footer h1{
+    padding-top: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.footer h5{
+    margin-top: 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 22px;
+    padding: 0 20px 20px 20px
+}
+
+.footer :-ms-input-placeholder{
+    color: #545454;
+}
+.footer input{
+    height: 35px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: #FAF4DD;
+    border: 0;
+    outline: 0;
+    margin-left: 26%;
+    padding: 20px;
+}
+.footer button{
+    height: 75px;
+    width:225px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background-color: #C9211E;
+    color: #FFFFFF;
+    cursor: pointer;
+    word-spacing: 10px;
+}
+
+
+
+.footer img{
+    margin-left: 140px;
+    margin-top: 30px;
+}
+.footer p{
+    display: inline;
+    font-size: 18px;
+    margin-left: 200px;
+    margin-top: 0;
+    color: #9D9E9E;
+}
+
+.footer-inner {
+    display: flex;
+    background-color: #FAF4DD;
+    flex-wrap: wrap;
+    width: 65%;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%;
+    margin: 37px 39px 8px 100px;
+    padding: 50px;
+}
+.info.custom-menu {
+    width: 20%;
+}
+#follow{
+    width:10%
+}
+.info .mobile-view{
+    width: 171px;
+}
+.footer-inner .info h3{
+    color: #242424;
+font-weight: 400;
+font-family: "dosis";
+font-weight: bold;
+}
+.footer-inner .info .mobile-view ul li{
+    list-style: none;
+    padding-top: 9%;
+}
+.footer-inner .info .mobile-view ul li a{
+    text-decoration: none;
+    color: #242424;
+    font-family: "dosis";
+}
+
