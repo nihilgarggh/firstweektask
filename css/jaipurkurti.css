@@ -6,7 +6,9 @@
 body {
     background-color: #FBF7EA;
 }
-
+#myNavbar{
+    display: none;
+}
 .top-offer{
     width: 100%;
 }
@@ -15,6 +17,9 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-size: cover;
+}
+.top-offer marquee{
+    display: none;
 }
 .offer-text {
     width: 100%;
@@ -67,7 +72,7 @@ h5{
     position: absolute;
     right: -1.2vw;
     border: 0;
-    top: 0.6vw;
+    top: 0.5vw;
     width: 1.5vw;
     background-image: url(../Images/search-interface-symbol.png);
     background-repeat: no-repeat;
@@ -196,7 +201,6 @@ text-align: center;
     text-align: center;
     font-size: 22px;
 }
-
 .new-arrivals{
     background-color: #FAF4DD;
     padding-bottom: 60px;
@@ -213,20 +217,16 @@ text-align: center;
     font-size: 22px;
     text-align: center;
 }
-
 .center .owl-item.center .item p {
     margin-top: 0px;
 }
-
 .inner {
     transition: 0.3s;
     transform: scale(0.8);
 }
-
 .center .owl-item.center .inner {
     transform: scale(1) !important;
 }
-
 .new-arrivals button .am-prev,
 .new-arrivals button .am-next {
     position: absolute !important;
@@ -240,24 +240,19 @@ text-align: center;
 .new-arrivals button .am-next img{
     width: 4vw;
 }
-
 button .am-prev {
     z-index: 2 !important;
     left: 40px !important;
     transform: rotateY(180deg) !important;
 }
-
 button.am-next {
     z-index: 2 !important;
     right: 40px !important;
 }
-
-
 .curvy-styles{
     background-image: url(../Images/background_img_curvy.png);
     background-position: right bottom;
     background-repeat: no-repeat;
-    /* background-position: right; */
     background-size: 25%;
     float: left;
     background-color: #FBF7EA;
@@ -275,7 +270,6 @@ button.am-next {
     margin-top: 158px;
     margin-bottom: 10px;
 }
-
 .first-div p{
     margin-left: 142px;
     font-family: "Dosis";
@@ -283,28 +277,27 @@ button.am-next {
     padding-right: 140px;
     color: #545454;
 }
-
 .button-image{
     display: flex;
     margin-top: 20px;
 }
 .button-image button{
     width: 264px;
-height: 57px;
-margin-left: 140px;
-outline: 0;
-background-color: #C9211E;
-border: 0;
-color: #FFFFFF;
-font-family: "Dosis";
-font-size: 16px;
+    height: 57px;
+    margin-left: 140px;
+    outline: 0;
+    background-color: #C9211E;
+    border: 0;
+    color: #FFFFFF;
+    font-family: "Dosis";
+    font-size: 16px;
+    cursor: pointer;;
 }
 .button-image img{
     width: 275px;
-height: 375px;
-margin-left: 50px;
+    height: 375px;
+    margin-left: 50px;
 }
-
 .second-div{
     width: 48%;
     float: left;
@@ -315,16 +308,12 @@ height: 650px;
 margin-left: 100px;
     margin-top: 80px;;
 }
-
 .styleforoccasion{
     background-color: #FAF4DD;
-    /* padding-top: 100px;
-    margin-top: 100px; */
     font-family: "Dosis";
     text-align: center;
     padding: 100px;
 }
-
 .styleforoccasion h2{
     font-size: 35px;
     word-spacing: 3px;
@@ -343,7 +332,6 @@ margin-left: 100px;
     font-size: 22px;
     float: left;
 }
-
 .styleforoccasion section{
     background-color: #FAF4DD;
     display: flex;
@@ -352,7 +340,6 @@ margin-left: 100px;
     margin-top: 14px;
     column-gap: 1rem;
 }
-
 .bestseller {
     display: flex;
     flex-direction: column;
@@ -378,7 +365,7 @@ margin-left: 100px;
     font-family: "dosis";
 }
 .item-best P{
-    font-size: 11px;
+    font-size: 14px;
     padding-top: 9px;
 }
 .item-best .price p{
@@ -412,34 +399,27 @@ margin-left: 100px;
     cursor: pointer;
     top: 27% !important;
 }
-
 button .bm-prev {
     z-index: 2 !important;
     left: -6.5% !important;
     transform: rotateY(180deg) !important;
 }
-
 button .bm-next {
     z-index: 2 !important;
     right: -6.5% !important;
 }
-
 .bestseller .owl-bestseller {
     margin-top: 13px;
     width: 85%;
 }
-
 .item-best {
     margin: auto 12px;
 }
-
-
 .hues-of-season{
     width: 100%;
     font-family: "Dosis";
     text-align: center;
     background-image: url(../Images/Layer\ 2\ copy\ 3.jpg);
-    height: 900px;
 }
 .hues-of-season h2{
     font-size: 35px;
@@ -456,19 +436,16 @@ padding: 0px 20px 20px 20px;
     margin-right: 33px;
     margin-bottom: 25px;
 }
-
 .insta-pics{
     width: 250px;
     height: 250px;
     margin-left: 2%;
-
 }
 .insta-pics-div{
     align-items: center;
     /* margin-left: 2%; */
     margin-bottom: 100px;
 }
-
 .get-a-first-look{
     font-family: 'Dosis';
     text-align: center;
@@ -485,19 +462,16 @@ padding: 0px 20px 20px 20px;
     word-spacing: 1px;
     padding: 0 10px 10px 10px;
 }
-
 .get-a-first-look a{
     text-decoration: none;
     color: #242424;
 }
-
 .return-shipping{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 0px 8% 3%;
 }
-
 .ship{
     background-color: #FAF4DD;
     display: flex;
@@ -511,13 +485,11 @@ padding: 0px 20px 20px 20px;
     width: 45px;
     padding: 28%;
 }
-
 .return h3{
     padding: 10px;
     font-family: "dosis";
     font-size: 18px;
 }
-
 .footer{
     background-image: url(../images/Group\ 38.jpg);
     width: 100%;
@@ -525,7 +497,6 @@ padding: 0px 20px 20px 20px;
     margin-top: 100px;
     font-family: "Dosis";
 }
-
 .footer h1{
     padding-top: 50px;
     color: #FFFFFF;
@@ -540,7 +511,6 @@ padding: 0px 20px 20px 20px;
     font-size: 22px;
     padding: 0 20px 20px 20px
 }
-
 .footer :-ms-input-placeholder{
     color: #545454;
 }
@@ -551,8 +521,10 @@ padding: 0px 20px 20px 20px;
     background-color: #FAF4DD;
     border: 0;
     outline: 0;
-    margin-left: 26%;
     padding: 20px;
+}
+#input-footer{
+    margin-left: 30%;
 }
 .footer button{
     height: 75px;
@@ -565,9 +537,6 @@ padding: 0px 20px 20px 20px;
     cursor: pointer;
     word-spacing: 10px;
 }
-
-
-
 .footer img{
     margin-left: 140px;
     margin-top: 30px;
@@ -579,7 +548,6 @@ padding: 0px 20px 20px 20px;
     margin-top: 0;
     color: #9D9E9E;
 }
-
 .footer-inner {
     display: flex;
     background-color: #FAF4DD;
@@ -617,3 +585,246 @@ font-weight: bold;
     font-family: "dosis";
 }
 
+@media only screen and (max-width:1024px){
+    .offer-text{
+        font-size: 11px;
+    }
+    .search input{
+        height: 4.5vw;
+    }
+    .search button{
+        width: 29px;
+    height: 22px
+    }
+    .navbar .login-bag-fav{
+        justify-content: space-around;
+        
+    }
+    .navbar .login-bag-fav a{
+        padding: 5px;
+
+    }
+    .category-list{
+        text-align: center;
+        display: flex;
+        margin-left: 0;
+    }
+    .category-list a{
+        margin: 15px;
+        margin-bottom: 0;
+    }
+    .special-deals h2{
+        font-size: 25px;
+        padding-top: 25px;
+    }
+    .deals-images{
+        margin-top: 24px;
+    }
+    .first-div h2{
+        margin-left: 74px;
+        font-size: 25px;
+    margin-top: 68px;
+    }
+    .first-div p{
+        margin-left: 74px;
+        padding-right: 0;
+        font-size: 16px;
+    }
+    .button-image button{
+        margin-left: 74px;
+
+    }
+    .first-div{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .second-div img {
+        width: 438px;
+        height: 545px;
+        margin-left: 229px;
+        margin-top: 36px;margin-bottom: 50px;
+}
+.styleforoccasion h2 {
+    font-size: 25px;
+
+}
+.styleforoccasion h5 {
+    font-size: 12px;
+}
+.styleforoccasion img {
+    width: 301px;
+    height: 391px;
+}
+.styleforoccasion{
+    padding: 0;
+}
+#phone-styleforoccasion{
+    display: none;
+}
+.styleforoccasion div{
+    flex: auto;
+    margin-bottom: 30px;
+}
+.footer h1{
+    padding-top: 35px;
+    font-size: 27px;
+}
+.footer h5{
+    font-size: 18px;
+}
+
+.footer input{
+height: auto;
+width: 180px;
+}
+.footer button{
+    height: 57px;
+    width: 166px;
+}
+.footer ::placeholder{
+font-size: 13px;}
+
+.footer-inner{
+    margin: auto;
+    margin-top: 60px;
+}
+.info .mobile-view{
+    width: 160px;
+}
+#insta-pic-last{
+    display: none;
+}
+.bestseller button .bm-prev img, .bestseller button .bm-next img{
+    width: 47%;
+}
+.new-arrivals button .am-prev img, .new-arrivals button .am-next img {
+    width: 7vw;
+}
+.mood-image-label{
+    margin: 20px;
+}
+.footer{
+    height: auto
+}
+.footer img{
+    margin-left: 20px;
+}
+.footer p{
+    font-size: 13px;
+    margin-left: 30px
+}
+
+}
+
+@media only screen and (max-width:426px){
+    .top-offer p{
+        display: none;
+    }
+    .top-offer marquee{
+        display: inline;
+    text-align: center;
+    color: #FAF4DD;
+    font-size: 12px;
+    padding: 1vw 0vw;
+    font-family: "Dosis";
+    }
+    .search{
+        display: none;
+    }
+    .logo img {
+        width: 75%;
+    }
+    .category-list{display: none;}
+   .navbar{
+    justify-content: center;
+   }
+   .special-deals{
+    height: auto;
+    padding-bottom: 50px;
+   }
+   .pick-your-mood p{
+    width: auto;
+   }
+   .inner p{
+    font-size: 12px;
+   }
+   .first-div h2{
+    margin-left: 35px;
+    font-size: 18px;
+   }
+   .first-div p{
+    margin-left: 35px;
+   }
+   .button-image button{
+    width: 111px;
+    height: 33px;
+    margin-left: 35px;
+   }
+   .button-image img {
+    width: 218px;
+    height: 308px;
+    margin-left: 29px;
+}
+.first-div p{
+    font-size: 13px;
+    width: 50%;
+}
+.second-div img {
+    width: 255px;
+    height: 348px;
+    margin-left: 100px;
+}
+.curvy-styles{
+    background-size:50%
+}
+.styleforoccasion section{
+display: inline-grid;
+text-align: center;
+}
+.price{
+    font-size: 9px;
+}
+.item-best .price p{
+    font-size: 9px;
+}
+.item-best P{
+    font-size: 10px;
+}
+.hues-of-season img{
+    width: 100%;
+}
+
+.footer-inner {
+    padding: 4% 3%;
+}
+.mobile-view{
+    display: none;
+}
+.info.custom-menu {
+    width: 100%;
+    padding-bottom: 3%;
+}
+#follow {
+    width: 100%;
+}
+.label{
+    position: relative;
+  cursor: pointer;
+}
+.label::before{
+    content: '+';
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    font-size: 40px;
+    transform: translatey(-50%);
+}
+.active.label::before{
+    content: '-';
+    font-size: 40px;
+}
+.active{
+    display: block;
+}
+}
